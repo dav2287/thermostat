@@ -1,4 +1,4 @@
-from htu21df.py import htu21df
+from htu21df import HTU21D
 import time
 
 def __init__(self):
