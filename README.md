@@ -9,4 +9,6 @@
 | Blue  | Y  				| Cool 		|
 | Red   | R + Rc 			| Power		|
 
-[Thermostat Wiring](http://www.behvac.com/troubleshooter41.htm)
+Reference: [Thermostat Wiring](http://www.behvac.com/troubleshooter41.htm)
+
+update
