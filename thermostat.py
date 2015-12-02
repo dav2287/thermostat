@@ -1,8 +1,8 @@
 from htu21df import HTU21D
 import time
 
-def __init__(self):
-    self.htu = HTU21D()
+# Initialize instance of thermostat
+htu = HTU21D()
 
 def get_temp_c():
     return htu.read_tmperature()
