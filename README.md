@@ -12,3 +12,7 @@
 Reference: [Thermostat Wiring](http://www.behvac.com/troubleshooter41.htm)
 
 update
+
+## Packages:
+https://github.com/adafruit/Adafruit_HTU21DF_Library
+https://github.com/romainmp/HTU21D
