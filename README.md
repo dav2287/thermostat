@@ -11,6 +11,8 @@
 | Blue  | Y  				| Cool 		|
 | Red   | R + Rc 			| Power		|
 
+Reference: [Thermostat Wiring](http://www.behvac.com/troubleshooter41.htm)
+
 ### Photon:
 
 | Photon Pin | Connected  |
@@ -23,7 +25,7 @@
 | GND        | i2c + relay GND |
 | Vcc        | i2c + relay Vcc |
 
-Reference: [Thermostat Wiring](http://www.behvac.com/troubleshooter41.htm)
+
 
 ## Packages:
 https://github.com/adafruit/Adafruit_HTU21DF_Library
