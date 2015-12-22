@@ -25,7 +25,7 @@ All text above, and the splash screen below must be included in any redistributi
 #endif
 
 #if !defined(ARDUINO_ARCH_SAM) && !defined(ARDUINO_ARCH_SAMD) && !defined(ESP8266) && !defined(ARDUINO_ARCH_STM32F2)
- #include <util/delay.h>
+ #include <delay.h>
 #endif
 
 #include <stdlib.h>
