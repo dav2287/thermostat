@@ -48,7 +48,8 @@ void loop() {
   Serial.println(hum);
   Serial.print("Temp: ");
   Serial.println(temp);
-  delay(1000);
+  logic();
+  delay(59000);
 }
 
 void logic() {
