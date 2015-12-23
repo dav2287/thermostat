@@ -1,5 +1,5 @@
-#ifndef _ADAFRUIT_GFX_H
-#define _ADAFRUIT_GFX_H
+#ifndef ADAFRUIT_GFX_H
+#define ADAFRUIT_GFX_H
 
 #include "application.h"
 

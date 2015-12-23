@@ -22,6 +22,7 @@ float hum;
 float temp;
 int setPoint = 68;
 String mode = "";
+int command;
 
 void setup() {
   Serial.begin(9600);
@@ -38,18 +39,7 @@ void setup() {
   pinMode(FAN_RELAY, OUTPUT);
 
   // Register Particle cloud
-  Particle.function("command", command);
-}
-
-void loop() {
-  hum = htu.readHumidity();
-  temp = htu.readTemperature();
-  Serial.print("Hum: ");
-  Serial.println(hum);
-  Serial.print("Temp: ");
-  Serial.println(temp);
-  logic();
-  delay(59000);
+  // Particle.function("command", command);
 }
 
 void logic() {
@@ -75,4 +65,15 @@ void logic() {
     digitalWrite(HEAT_RELAY, LOW);
     digitalWrite(FAN_RELAY, LOW);
   }
+}
+
+void loop() {
+  hum = htu.readHumidity();
+  temp = htu.readTemperature();
+  Serial.print("Hum: ");
+  Serial.println(hum);
+  Serial.print("Temp: ");
+  Serial.println(temp);
+  logic();
+  delay(59000);
 }
